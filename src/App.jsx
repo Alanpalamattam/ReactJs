@@ -1,14 +1,8 @@
 import Hello from "./components/Hello";
 import Fruits from "./components/Fruits";
+import Conditionalcomponent from "./components/conditionalcomponent";
+
 function App() {
-  return (
-    <div className="App">
-      {
-        /* <Hello message="Hai" name="Alan" lname="Peter" />
-      <Hello message="Hello" name="Amarjith" lname="Alex" /> */
-        <Fruits />
-      }
-    </div>
-  );
+  return <div className="App">{<Conditionalcomponent />}</div>;
 }
 export default App;
