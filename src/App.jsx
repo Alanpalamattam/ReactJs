@@ -3,6 +3,6 @@ import Fruits from "./components/Fruits";
 import Conditionalcomponent from "./components/conditionalcomponent";
 
 function App() {
-  return <div className="App">{<Conditionalcomponent />}</div>;
+  return <div className="App">{<Fruits />}</div>;
 }
 export default App;
