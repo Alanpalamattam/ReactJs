@@ -2,10 +2,10 @@ export default function Fruit({ name, price }) {
   return (
     <div>
       {price > 30 ? (
-        <h3>
+        <li>
           {name}
           {price}
-        </h3>
+        </li>
       ) : (
         ""
       )}
