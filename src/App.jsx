@@ -3,8 +3,9 @@ import Fruits from "./components/Fruits";
 import Conditionalcomponent from "./components/conditionalcomponent";
 import Message from "./components/Message";
 import Counter from "./components/Counter";
+import Form from "./components/Form";
 
 function App() {
-  return <div className="App">{<Counter />}</div>;
+  return <div className="App">{<Form />}</div>;
 }
 export default App;
