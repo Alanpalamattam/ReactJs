@@ -3,5 +3,5 @@ export default function Code() {
     <div>
       <h1>Code everyday</h1>
     </div>
-  );
+  )
 }

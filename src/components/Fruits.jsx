@@ -7,6 +7,7 @@ export default function Fruits() {
     { name: "Orange", price: 30, soldout: false },
     { name: "Banana", price: 40, soldout: false },
     { name: "Mango", price: 50, soldout: true },
+    { name: "Jackfruit", price: 50, soldout: true },
   ];
   return (
     <div>

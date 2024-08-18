@@ -3,8 +3,9 @@ export default function Fruit({ name, price, soldout }) {
     <div>
       {price > 20 ? (
         <h3>
-          {name} <br />
+          {name}
           {price}
+
           {soldout ? "Soldout" : "Available"}
         </h3>
       ) : (
